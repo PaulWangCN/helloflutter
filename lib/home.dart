@@ -44,7 +44,7 @@ class _Home extends State<Home> {
                 String prefix = name.split('/')[0].trim();
                 String suffix = name.split('/')[1].trim();
                 String title = "$prefix / $suffix";
-                String subtitle = '无说明信息';
+                String subtitle = '';
                 if (subtitleEle != null &&
                     subtitleEle.className == 'col-9 color-fg-muted my-1 pr-4') {
                   subtitle = subtitleEle.text.trim();
